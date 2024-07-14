@@ -3,7 +3,7 @@ import path from 'path';
 import swig from 'swig'
 
 const app = express()
-const port = 443
+const port = 80
 
 app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
